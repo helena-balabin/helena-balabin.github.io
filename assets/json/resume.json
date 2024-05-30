@@ -21,48 +21,100 @@
   },
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "KU Leuven",
+      "location": "Leuven, Belgium",
+      "area": "Departments of Neurosciences and Computer Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2021-11",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Natural Language Processing", "Neurolinguistics", "Neural Encoding", "Alzheimer's Disease", "Connected Speech", "Functional MRI"]
+    },
+    {
+      "institution": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "location": "Sankt Augustin, Germany",
+      "studyType": "Master of Science in Computer Science", 
+      "startDate": "2018-09",
+      "endDate": "2021-09",
+      "courses": ["Natural Language Processing", "Bioinformatics", "Alzheimer's Disease", "Knowledge Graphs"]
+    },
+    {
+      "institution": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "location": "Sankt Augustin, Germany",
+      "studyType": "Bachelor of Science in Computer Science", 
+      "startDate": "2015-09",
+      "endDate": "2018-08",
+      "courses": ["Bioinformatics", "Software Engineering", "Machine Learning"]
+    },
+    {
+      "institution": "Dalhousie University",
+      "location": "Halifax, Canada",
+      "studyType": "Visiting Student at the Beiko Lab",
+      "startDate": "2017-08",
+      "endDate": "2017-12",
+      "courses": ["Metagenomics", "Bioinformatics", "Machine Learning"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best oral presentation",
+      "date": "2024-03",
+      "awarder": "CURE-ND early researchers workshop"
+    },
+    {
+      "title": "PhD fellowship fundamental research",
+      "date": "2022-10",
+      "awarder": "Research Foundation Flanders (FWO)",
+      "summary": "Individual PhD fellowship (120,000€ over the span of four years)"
+    },
+    {
+      "title": "Studienpreis",
+      "date": "2022-05",
+      "awarder": "Anwenderforum für Fernmeldetechnik, Computer, Elektronik und Automatisierung Bonn e.V.",
+      "summary": "Award for the best master's thesis in applied computer science across multiple universities around Bonn (5,000€)"
+    },
+    {
+      "title": "Deutschlandstipendium",
+      "date": "2016-09",
+      "awarder": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "summary": "Yearly scholarship awarded to high-scoring students (300€ monthly, 3 years)"
+    },
+    {
+      "title": "Förderpreis der Fördergesellschaft der Hochschule Bonn-Rhein-Sieg (Best Thesis Award)",
+      "date": "2018-10",
+      "awarder": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "summary": "Award for the best bachelor's thesis in the computer science department (1,000€)"
+    },
+    {
+      "title": "International Study and Training Partnerships scholarship",
+      "date": "2017-09",
+      "awarder": "German Academic Exchange Service, Bonn-Rhein-Sieg University of Applied Sciences",
+      "summary": "Scholarship awarded for studying abroad at the Dalhousie University in Halifax, Canada (800€ monthly, 4 months)"
     }
   ],
   "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
+    {"summary": "This list contains only first-authored journal articles and conference papers, for a full list, please see my google scholar profile."},
+      {
+        "name": "A comparative analysis of language models for the classification of alzheimer’s disease based on connected speech",
+        "publisher": "To Appear In: Proceedings of the First Workshop on Artificial Intelligence for Brain Encoding and Decoding, AAAI Conference on Artificial Intelligence",
+        "releaseDate": "2024-02"
+      },
+      {
+        "name": "Investigating Neural Fit Approaches for Sentence Embedding Model Paradigms",
+        "publisher": "Proceedings of the 26th European Conference on Artificial Intelligence",
+        "releaseDate": "2023-10",
+        "url": "https://ebooks-iospress-nl.kuleuven.e-bronnen.be/doi/10.3233/FAIA230267"
+      },
+      {
+        "name": "STonKGs: A Sophisticated Transformer Trained on Biomedical Text and Knowledge Graphs",
+        "publisher": "Bioinformatics",
+        "releaseDate": "2022-03",
+        "url": "https://doi.org/10.1093/bioinformatics/btac001"
+      },
+      {
+        "name": "ProtSTonKGs: A Sophisticated Transformer Trained on Protein Sequences, Text, and Knowledge Graphs",
+        "publisher": "SWAT4HCLS",
+        "releaseDate": "2022-01"
+      } 
   ],
   "skills": [
     {
