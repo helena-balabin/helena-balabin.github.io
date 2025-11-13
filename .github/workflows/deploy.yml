@@ -78,7 +78,13 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
       - name: Install ImageMagick
-        run: sudo apt-get update && sudo apt-get install -y imagemagick
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+      - name: Install Ruby dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential ruby-dev
       - name: Build site 🏗️
         run: |
           export JEKYLL_ENV=production
