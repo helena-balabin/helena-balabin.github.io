@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://helena-balabin.github.io/sitemap.xml
+Sitemap: https://helena-balabin.github.io/helena-balabin.github.io/sitemap.xml
