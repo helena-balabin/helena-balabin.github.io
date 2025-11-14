@@ -72,7 +72,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 acm_id: # your dl.acm.org/profile/id
 blogger_url: # your blogger URL
-bluesky_url: # your bluesky URL
+bluesky_url: https://bsky.app/profile/hbalabin.bsky.social
 dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
@@ -106,7 +106,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: HBalabin
+x_username: # twitter
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -285,8 +285,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Balabin]
+  first_name: [Helena]
 
   style: apa
   locale: en
@@ -308,6 +308,8 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  sort_by: month
+  order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
@@ -604,6 +606,10 @@ jsonresume:
   - basics
   - work
   - education
+  - research experience
+  - teaching experience
+  - academic service
+  - invited talks
   - publications
   - projects
   - volunteer

@@ -2,5 +2,9 @@ github_users:
   - helena-balabin
 
 github_repos:
+  - helena-balabin/relational-structure-in-clip
+  - helena-balabin/compositionality-study
   - lcn-kul/sentencefmricomparison
+  - lcn-kul/connected-speech-classification
   - stonkgs/stonkgs
+

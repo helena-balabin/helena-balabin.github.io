@@ -3,30 +3,25 @@
     "name": "Helena Balabin",
     "image": "",
     "email": "helena.balabin@gmail.com",
-    "url": "https://helena-balabin.github.io",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "HBalabin",
-        "url": "https://twitter.com/HBalabin"
-      }
-    ]
+    "url": "https://helena-balabin.github.io"
   },
   "education": [
+    {
+      "institution": "University of Alberta & Alberta Machine Intelligence Institute (Amii)",
+      "location": "Edmonton, Canada",
+      "area": "Department of Computing Science",
+      "studyType": "Visiting PhD Student at Prof. Fyshe's Lab",
+      "startDate": "2025-10",
+      "score": "10",
+      "courses": ["Vision-Language Models", "Compositionality", "Neural Encoding", "Knowledge Graph Representation Learning", "Functional MRI"]
+    },
     {
       "institution": "KU Leuven",
       "location": "Leuven, Belgium",
       "area": "Departments of Neurosciences and Computer Science",
-      "studyType": "PhD",
+      "studyType": "Interdisciplinary PhD Student & Fonds Wetenschappelijk Onderzoek (FWO) Fellow",
       "startDate": "2021-11",
-      "score": "10",
+      "score": "9",
       "courses": ["Natural Language Processing", "Neurolinguistics", "Neural Encoding", "Alzheimer's Disease", "Connected Speech", "Functional MRI"]
     },
     {
@@ -48,10 +43,70 @@
     {
       "institution": "Dalhousie University",
       "location": "Halifax, Canada",
-      "studyType": "Visiting Student at the Beiko Lab",
+      "studyType": "Visiting Undergraduate Student at Prof. Beiko's Lab",
       "startDate": "2017-08",
       "endDate": "2017-12",
       "courses": ["Metagenomics", "Bioinformatics", "Machine Learning"]
+    }
+  ],
+  "research experience": [
+    {
+      "name": "Fraunhofer Institute for Algorithms and Scientific Computing (SCAI)",
+      "location": "Sankt Augustin, Germany",
+      "position": "Student Research Assistant",
+      "startDate": "2018-02",
+      "endDate": "2021-10",
+      "summary": "Bioinformatics Department",
+      "highlights": [
+        "Implemented natural language processing methods in biomedical contexts and developed machine learning approaches for Alzheimer's Disease diagnosis."
+      ]
+    }
+  ],
+  "teaching experience": [
+    {
+      "name": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "location": "Sankt Augustin, Germany",
+      "position": "Teaching Assistant",
+      "startDate": "2018-10",
+      "endDate": "2020-01",
+      "summary": "Introduction to Probability Theory and Statistics",
+      "highlights": [
+        "Led exercise sessions for cohorts of 60+ students per year covering Python programming and core statistics concepts."
+      ]
+    },
+    {
+      "name": "Bonn-Rhein-Sieg University of Applied Sciences",
+      "location": "Sankt Augustin, Germany",
+      "position": "Tutor",
+      "startDate": "2016-10",
+      "endDate": "2019-01",
+      "summary": "Introductory Computer Science Courses",
+      "highlights": [
+        "Assisted students with assignment submissions and exam preparation across multiple introductory computer science courses."
+      ]
+    }
+  ],
+  "academic service": [
+    {
+      "category": "Reviewing Activities",
+      "items": [
+        "Bioinformatics, Journal of Neurology, Bioinformatics Advances, Scientific Reports, BMC Medical Informatics & Decision Making, npj Dementia, International Journal of Language & Communication Disorders, European Conference on Artificial Intelligence (ECAI)"
+      ]
+    },
+    {
+      "category": "Master's Thesis Supervision",
+      "items": [
+        "Ella Eycken - Combining Logopedics and Natural Language Processing for the Characterisation of Patients Affected by Neurodegeneration",
+        "Ali Tolga Dincer - Exploring Parameter-Efficient Fine-Tuning in Large Language Models for Brain Decoding"
+      ]
+    }
+  ],
+  "invited talks": [
+    {
+      "name": "University of Antwerp Computational Linguistics, Psycholinguistics and Sociolinguistics (CLiPS) Colloquium",
+      "location": "Antwerp, Belgium",
+      "position": "Natural Language Processing in the Human Brain",
+      "startDate": "2025-03"
     }
   ],
   "awards": [
@@ -93,29 +148,88 @@
   ],
   "publications": [
     {
-      "summary": "This list contains only first-authored journal articles and conference papers, for a full list, please see my google scholar profile."
+      "name": "Compositional Complexity in Text and Images",
+      "publisher": "Neurobiology of Language (Stage 1 In-Principle Acceptance)",
+      "releaseDate": "2025-07",
+      "url": "https://doi.org/10.17605/OSF.IO/TA45D",
+      "summary": "Helena Balabin, Antonietta Gabriella Liuzzi, Kevin Statz, Marie-Francine Moens, Patrick Dupont, Rik Vandenberghe"
     },
     {
-      "name": "A comparative analysis of language models for the classification of alzheimer’s disease based on connected speech",
-      "publisher": "To Appear In: Proceedings of the First Workshop on Artificial Intelligence for Brain Encoding and Decoding, AAAI Conference on Artificial Intelligence",
-      "releaseDate": "2024-02"
+      "name": "Evaluating Language Model Embeddings for Parkinson's Disease Cohort Harmonization Using a Novel Manually Curated Variable Mapping Schema",
+      "publisher": "Scientific Reports",
+      "releaseDate": "2025-06",
+      "url": "https://www.nature.com/articles/s41598-025-06447-2",
+      "summary": "Yasamin Salimi, Tim Adams, Mehmet Can Ay, Helena Balabin, Marc Jacobs, Martin Hofmann-Apitius"
+    },
+    {
+      "name": "Natural Language Processing-Based Classification of Early Alzheimer's Disease from Connected Speech",
+      "publisher": "Alzheimer's & Dementia",
+      "releaseDate": "2025-01",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/alz.14530",
+      "summary": "Helena Balabin, Bastiaan Tamm, Laure Spruyt, Nathalie Dusart, Ines Kabouche, Ella Eycken, Kevin Statz, Steffi De Meyer, Hugo Van Hamme, Patrick Dupont, Marie-Francine Moens, Rik Vandenberghe"
+    },
+    {
+      "name": "Semantic Harmonization of Alzheimer's Disease Datasets Using AD-Mapper",
+      "publisher": "Journal of Alzheimer's Disease",
+      "releaseDate": "2024-04",
+      "url": "https://journals.sagepub.com/doi/10.3233/JAD-240116",
+      "summary": "Philipp Wegner, Helena Balabin, Mehmet Can Ay, Sarah Bauermeister, Lewis Killin, John Gallacher, Martin Hofmann-Apitius, Yasamin Salimi"
+    },
+    {
+      "name": "A Comparative Analysis of Language Models for the Classification of Alzheimer's Disease Based on Connected Speech",
+      "publisher": "Proceedings of the First Workshop on Artificial Intelligence for Brain Encoding and Decoding at the AAAI Conference on Artificial Intelligence",
+      "releaseDate": "2024-02",
+      "url": "https://lirias.kuleuven.be/retrieve/800482",
+      "summary": "Helena Balabin, Laure Spruyt, Ella Eycken, Ines Kabouche, Bastiaan Tamm, Jolien Schaeverbeke, Patrick Dupont, Marie-Francine Moens, Rik Vandenberghe"
     },
     {
       "name": "Investigating Neural Fit Approaches for Sentence Embedding Model Paradigms",
       "publisher": "Proceedings of the 26th European Conference on Artificial Intelligence",
       "releaseDate": "2023-10",
-      "url": "https://ebooks-iospress-nl.kuleuven.e-bronnen.be/doi/10.3233/FAIA230267"
+      "url": "https://ebooks-iospress-nl.kuleuven.e-bronnen.be/doi/10.3233/FAIA230267",
+      "summary": "Helena Balabin, Antonietta Gabriella Liuzzi, Jingyuan Sun, Patrick Dupont, Rik Vandenberghe, Marie-Francine Moens"
+    },
+    {
+      "name": "How Relevant Is Selective Memory Population in Lifelong Language Learning?",
+      "publisher": "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing",
+      "releaseDate": "2022-11",
+      "url": "https://aclanthology.org/2022.aacl-short.20",
+      "summary": "Vladimir Araujo, Helena Balabin, Julio Hurtado, Alvaro Soto, Marie-Francine Moens"
+    },
+    {
+      "name": "Pre-trained Speech Representations as Feature Extractors for Speech Quality Assessment in Online Conferencing Applications",
+      "publisher": "Interspeech 2022",
+      "releaseDate": "2022-10",
+      "url": "https://www.isca-archive.org/interspeech_2022/tamm22_interspeech.html",
+      "summary": "Bastiaan Tamm, Helena Balabin, Rik Vandenberghe, Hugo Van Hamme"
+    },
+    {
+      "name": "Deep Learning-based Detection of Psychiatric Attributes from German Mental Health Records",
+      "publisher": "International Journal of Medical Informatics",
+      "releaseDate": "2022-05",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1386505622000387",
+      "summary": "Sumit Madan, Fabian Julius Zimmer, Helena Balabin, Sebastian Schaaf, Holger Froehlich, Juliane Fluck, Irene Neuner, Klaus Mathiak, Martin Hofmann-Apitius, Pegah Sarkheil"
     },
     {
       "name": "STonKGs: A Sophisticated Transformer Trained on Biomedical Text and Knowledge Graphs",
       "publisher": "Bioinformatics",
       "releaseDate": "2022-03",
-      "url": "https://doi.org/10.1093/bioinformatics/btac001"
+      "url": "https://doi.org/10.1093/bioinformatics/btac001",
+      "summary": "Helena Balabin, Charles Tapley Hoyt, Colin Birkenbihl, Benjamin M Gyori, John Bachman, Alpha Tom Kodamullil, Paul G Ploeger, Martin Hofmann-Apitius, Daniel Domingo-Fernandez"
     },
     {
       "name": "ProtSTonKGs: A Sophisticated Transformer Trained on Protein Sequences, Text, and Knowledge Graphs",
-      "publisher": "SWAT4HCLS",
-      "releaseDate": "2022-01"
+      "publisher": "Proceedings of the 13th International Conference on Semantic Web Applications and Tools for Life Sciences",
+      "releaseDate": "2022-01",
+      "url": "https://ceur-ws.org/Vol-3127/paper-13.pdf",
+      "summary": "Helena Balabin, Charles Tapley Hoyt, Benjamin M Gyori, John Bachman, Alpha Tom Kodamullil, Martin Hofmann-Apitius, Daniel Domingo-Fernandez"
+    },
+    {
+      "name": "The COVID-19 Ontology",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2020-12",
+      "url": "https://doi.org/10.1093/bioinformatics/btaa1057",
+      "summary": "Astghik Sargsyan, Alpha Tom Kodamullil, Shounak Baksi, Johannes Darms, Sumit Madan, Stephan Gebel, Oliver Keminer, Geena Mariya Jose, Helena Balabin, Lauren Nicole DeLong, Manfred Kohler, Marc Jacobs, Martin Hofmann-Apitius"
     }
   ],
   "skills": [
@@ -123,7 +237,7 @@
       "name": "Technical skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python", "Huggingface", "Java", "Linux"]
+      "keywords": ["Python (huggingface, pytorch, scikit-learn)", "MLOps (git, docker, mlflow, pytest, hydra)", "fMRI scanning & processing (BIDS, psychopy, fMRIprep, GLMSingle)", "Linux (HPC, slurm, remote workflows)"]
     }
   ],
   "languages": [
@@ -139,7 +253,7 @@
     },
     {
       "language": "Dutch",
-      "fluency": "Conversational",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
@@ -152,12 +266,12 @@
     {
       "name": "Artificial Intelligence",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Natural Language Processing", "Language Models", "Knowledge Graphs", "Multilinguality", "Neural En-/Decoding"]
+      "keywords": ["Natural Language Processing", "Compositionality", "Vision-Language Models", "Knowledge Graphs", "Neural En-/Decoding"]
     },
     {
       "name": "Neuroscience",
       "icon": "fa-solid fa-tag",
-      "keywords": ["Neurolinguistics", "Cognitive Science", "Alzheimer's Disease", "Connected Speech", "Functional MRI"]
+      "keywords": ["Neurolinguistics", "Compositionality", "Cognitive Neurology", "Alzheimer's Disease", "Functional MRI"]
     }
   ]
 }

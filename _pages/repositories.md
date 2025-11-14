@@ -1,13 +1,11 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description:
+permalink: /code/
+title: code
+description: While I am far from a perfect coder, I am commited to writing clean, reproducible, open-source code. This is a non-exhaustive list of some of the repositories I have worked on in the past years.
 nav: true
 nav_order: 4
 ---
-
-## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
 
