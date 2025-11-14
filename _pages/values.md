@@ -11,7 +11,7 @@ nav_order: 9
 {% assign values = site.data.values | default: site.empty_array %}
 {% if values and values != empty %}
 
-<p class="mb-3" style="font-size: 1.1rem;">I know, I know, I am very aware that I am still early in my career, why would anyone care about my takes on fixing academia? (And of course, I am not forcing anyone to read this.) However, I have realized that showing what I care about through how I approach work is far healthier for me than giving up. This non-exhaustive list serves both as a personal reflection and and a way to encourage open discussion while staying accountable.</p>
+<p class="mb-3" style="font-size: 1.1rem;">I know, I know, I am very aware that I am still early in my career, why would anyone care about my takes on academia? (And of course, I am not forcing anyone to read this.) However, I have realized that showing what I care about through how I approach work is far healthier for me than giving up. This non-exhaustive list serves both as a personal reflection and and a way to encourage open discussion while staying accountable.</p>
 <ul class="values-list" style="font-size: 1.05rem;">
   {% for item in values %}
     {% assign first_sentence = item %}
