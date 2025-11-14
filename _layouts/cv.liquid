@@ -16,7 +16,15 @@ layout: default
           ></a>
         {% endif %}
       </h1>
-      {% if page.description %}
+      {% if page.cv_intro and page.cv_pdf %}
+        <p class="post-description">
+          {{ page.cv_intro }}
+          <a
+            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            >{{ page.cv_intro_link_text | default: 'PDF' }}</a
+          >.
+        </p>
+      {% elsif page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
     </header>
