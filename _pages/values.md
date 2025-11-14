@@ -7,8 +7,10 @@ nav_order: 9
 ---
 
 <!-- markdownlint-disable MD033 -->
+
 {% assign values = site.data.values | default: site.empty_array %}
 {% if values and values != empty %}
+
 <p class="mb-3" style="font-size: 1.2rem;">I know, I know, I am very aware that I am still early in my career, why would anyone care about my takes on fixing academia? (And of course, I am not forcing anyone to read them.) However, I have realized that showing what I care about through how I approach work is far healthier for me than giving up. This non-exhaustive list serves both as a personal reflection and and a way to encourage open discussion while staying accountable.</p>
 <ul class="values-list" style="font-size: 1.1rem;">
   {% for item in values %}

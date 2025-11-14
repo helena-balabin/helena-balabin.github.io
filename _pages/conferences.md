@@ -32,8 +32,10 @@ nav_order: 8
     }
   }
 </style>
+
 {% assign conferences = site.data.conferences | sort: 'start_date' | reverse %}
 {% if conferences and conferences != empty %}
+
 <div class="conferences-gallery">
   {% for conference in conferences %}
     <section class="conference-group mb-5">

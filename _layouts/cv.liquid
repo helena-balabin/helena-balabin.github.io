@@ -21,7 +21,8 @@ layout: default
           {{ page.cv_intro }}
           <a
             href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-            >{{ page.cv_intro_link_text | default: 'PDF' }}</a
+          >
+            {{- page.cv_intro_link_text | default: 'PDF' -}}</a
           >.
         </p>
       {% elsif page.description %}

@@ -51,7 +51,7 @@
     - image: assets/img/conferences/IMG_9474.jpg
       caption: Presented a poster on neural encoding between sentence embeddings models and fMRI responses to written sentences. I found that it is not as easy as 'language models that are better at predictive coding are better at predicting brain responses', and tried to untangle some other factors at play.
     - image: assets/img/conferences/IMG_9536.jpg
-      caption: Highly recommend visiting the Parc national des Calanques. 
+      caption: Highly recommend visiting the Parc national des Calanques.
 - name: European Conference on Artificial Intelligence (ECAI) 2023
   location: Krakow, Poland
   dates: October 2023
