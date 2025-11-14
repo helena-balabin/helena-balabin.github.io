@@ -12,7 +12,7 @@ profile:
 
 scholar:
   sort_by: year
-  order: descending  # can be either "ascending" or "descending"
+  order: descending # can be either "ascending" or "descending"
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

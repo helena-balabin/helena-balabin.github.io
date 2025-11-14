@@ -70,9 +70,7 @@
       "startDate": "2018-10",
       "endDate": "2020-01",
       "summary": "Introduction to Probability Theory and Statistics",
-      "highlights": [
-        "Led exercise sessions for cohorts of 60+ students per year covering Python programming and core statistics concepts."
-      ]
+      "highlights": ["Led exercise sessions for cohorts of 60+ students per year covering Python programming and core statistics concepts."]
     },
     {
       "name": "Bonn-Rhein-Sieg University of Applied Sciences",
@@ -81,9 +79,7 @@
       "startDate": "2016-10",
       "endDate": "2019-01",
       "summary": "Introductory Computer Science Courses",
-      "highlights": [
-        "Assisted students with assignment submissions and exam preparation across multiple introductory computer science courses."
-      ]
+      "highlights": ["Assisted students with assignment submissions and exam preparation across multiple introductory computer science courses."]
     }
   ],
   "academic service": [
@@ -237,7 +233,12 @@
       "name": "Technical skills",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python (huggingface, pytorch, scikit-learn)", "MLOps (git, docker, mlflow, pytest, hydra)", "fMRI scanning & processing (BIDS, psychopy, fMRIprep, GLMSingle)", "Linux (HPC, slurm, remote workflows)"]
+      "keywords": [
+        "Python (huggingface, pytorch, scikit-learn)",
+        "MLOps (git, docker, mlflow, pytest, hydra)",
+        "fMRI scanning & processing (BIDS, psychopy, fMRIprep, GLMSingle)",
+        "Linux (HPC, slurm, remote workflows)"
+      ]
     }
   ],
   "languages": [
