@@ -1,0 +1,70 @@
+# List conferences in reverse chronological order by updating start_date fields.
+# Replace the sample entries with your own data and add images under assets/img/conferences/.
+- name: Cognitive Computational Neuroscience (CCN) 2025
+  location: Amsterdam, The Netherlands
+  dates: August 2025
+  start_date: 2025-08-20
+  gallery:
+    - image: assets/img/conferences/IMG_8102.jpg
+      caption: Presenting my ongoing work on the role of structured representations in scene perception in VLMs and the human brain.
+    - image: assets/img/conferences/IMG_8086.jpg
+      caption: A rare occurence, clear skies in Amsterdam!
+- name: Catalysing a United Response in Europe to Neurodegenerative Diseases (CURE-ND) workshop for early career researchers (ECRs) 2025
+  location: Paris, France
+  dates: March 2025
+  start_date: 2025-03-02
+  gallery:
+    - image: assets/img/conferences/IMG_6049.jpg
+      caption: New favorite place to dine in Paris, and very affordable too!
+    - image: assets/img/conferences/IMG_6065.jpg
+      caption: Lots of libraries to explore ...
+- name: Alzheimer's Association International Conference (AAIC) 2024
+  location: Philadelphia, USA
+  dates: July 2024
+  start_date: 2024-07-22
+  gallery:
+    - image: assets/img/conferences/IMG_3397.jpg
+      caption: I had so many interesting conversations with people from all sorts of backgrounds, and it was nice to see what potential impact digital speech-based biomarkers could have for the early diagnosis of Alzheimer's disease in the near future.
+    - image: assets/img/conferences/IMG_3280.jpg
+      caption: Beautiful views from the hotel room.
+- name: Catalysing a United Response in Europe to Neurodegenerative Diseases (CURE-ND) workshop for early career researchers (ECRs) 2024
+  location: Bonn, Germany
+  dates: March 2024
+  start_date: 2024-03-02
+  gallery:
+    - image: assets/img/conferences/IMG_1284.jpg
+      caption: Couldn't miss the opportunity to attend a workshop in my home town, especially during the cherry blossom season. Loved reconnecting with old friends and colleagues!
+- name: AAAI Conference on Artificial Intelligence (AAAI) 2024
+  location: Vancouver, Canada
+  dates: February 2024
+  start_date: 2024-02-22
+  gallery:
+    - image: assets/img/conferences/IMG_0552.jpg
+      caption: I have to admit, flying out all the way to Vancouver to be the only in-person presenter of a workshop, and it getting cancelled last minute as a result was a bit of a bummer. But I will forever be grateful to the three people who showed up to listen to my talk nonetheless. In addition to new adventures with the 'Italian logic mafia', I have also met so many kind people at the conference from whom I have learned a lot, so it was still worth it after all.
+    - image: assets/img/conferences/IMG_0813.jpg
+      caption: As a huge twilight fan, I of course had to do a road trip to Forks and La Push.
+- name: Society for the Neurobiology of Language (SNL) 2023
+  location: Marseille, France
+  dates: October 2023
+  start_date: 2023-10-29
+  gallery:
+    - image: assets/img/conferences/IMG_9474.jpg
+      caption: Presented a poster on neural encoding between sentence embeddings models and fMRI responses to written sentences. I found that it is not as easy as 'language models that are better at predictive coding are better at predicting brain responses', and tried to untangle some other factors at play.
+    - image: assets/img/conferences/IMG_9536.jpg
+      caption: Highly recommend visiting the Parc national des Calanques. 
+- name: European Conference on Artificial Intelligence (ECAI) 2023
+  location: Krakow, Poland
+  dates: October 2023
+  start_date: 2023-10-01
+  gallery:
+    - image: assets/img/conferences/IMG_9065.jpg
+      caption: Krakow is hugely underrated in my opinion, and I had such a lovely time with the 'Italian logic mafia' (aka the DTAI group at KU Leuven).
+- name: Computational Linguistics in the Netherlands (CLIN) 2022
+  location: Tilburg, Netherlands
+  dates: June 2022
+  start_date: 2022-06-09
+  gallery:
+    - image: assets/img/conferences/IMG_1771.jpg
+      caption: My first ever in-person conference, where I presented a poster on the role of episodic and semantic memory in continual learning.
+    - image: assets/img/conferences/IMG_1779.jpg
+      caption: The conference took place in a football (soccer) stadium, which was pretty cool.

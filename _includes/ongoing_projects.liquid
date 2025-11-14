@@ -1,0 +1,27 @@
+{% assign projects = site.data.ongoing_projects %}
+{% if projects and projects != empty %}
+<div class="row">
+  {% for project in projects %}
+    <div class="col-md-6 mb-4 d-flex">
+  <div class="card shadow-sm border-0 w-100">
+        {% if project.image %}
+          <img class="card-img-top" src="{{ project.image | relative_url }}" alt="{{ project.alt | default: project.title }}" loading="lazy">
+        {% endif %}
+        <div class="card-body">
+          <h3 class="h5 card-title">{{ project.title }}</h3>
+          {% if project.description %}
+            <p class="card-text mb-3">{{ project.description }}</p>
+          {% endif %}
+          {% if project.github %}
+            <div class="d-flex justify-content-center">
+              <a class="btn btn-sm" style="border-color: var(--global-theme-color); color: var(--global-theme-color);" href="{{ project.github }}" target="_blank" rel="noopener">view on github</a>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% else %}
+<p>Update <code>_data/ongoing_projects.yml</code> with your active projects to populate this section.</p>
+{% endif %}

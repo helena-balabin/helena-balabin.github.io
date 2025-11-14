@@ -1,0 +1,12 @@
+# Replace these sample entries with your ongoing projects.
+# Images are looked up relative to the site root, e.g., assets/img/projects/your-image.jpg.
+- title: Relational Structure in CLIP
+  image: assets/img/publication_preview/workflow_overview_complete.png
+  description: >-
+    Is visual structural compositionality emergent in VLM representations to the same extent as textual compositionality? People typically think of compositionality in the context of language (i.e., semantics and syntax), but I am curious whether we can see any parallels if we perform analogous analyses in vision with the help of scene graphs.
+  github: https://github.com/helena-balabin/relational-structure-in-clip
+- title: Compositional Complexity in Text and Images
+  image: assets/img/publication_preview/fmricomp.png
+  description: >-
+    Designing a functional MRI study from scratch was quite a challenge (including learning how to run the scans myself!), and I am grateful for all the help of my supervisors and colleagues. We are nearing the completion of the dataset, and I am excited to run the pre-registered analysis on the complete dataset very soon.
+  github: https://github.com/helena-balabin/compositionality-study
