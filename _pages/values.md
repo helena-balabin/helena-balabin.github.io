@@ -2,7 +2,7 @@
 layout: page
 permalink: /values/
 title: values
-nav: true
+nav: false
 nav_order: 9
 ---
 
