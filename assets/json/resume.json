@@ -5,13 +5,37 @@
     "email": "helena.balabin@gmail.com",
     "url": "https://helena-balabin.github.io"
   },
+    "research experience": [
+    {
+      "name": "Medical Image Processing and Machine Learning Laboratory (MIPLab)",
+      "location": "Calgary, Canada",
+      "position": "Postdoctoral Associate",
+      "startDate": "2026-09",
+      "summary": "Department of Radiology",
+      "highlights": [
+        "Implement and evaluate vision-language model-based digital twins of Alzheimer's disease."
+      ]
+    },
+    {
+      "name": "Fraunhofer Institute for Algorithms and Scientific Computing (SCAI)",
+      "location": "Sankt Augustin, Germany",
+      "position": "Student Research Assistant",
+      "startDate": "2018-02",
+      "endDate": "2021-10",
+      "summary": "Bioinformatics Department",
+      "highlights": [
+        "Implemented natural language processing methods in biomedical contexts and developed machine learning approaches for Alzheimer's Disease diagnosis."
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "University of Alberta & Alberta Machine Intelligence Institute (Amii)",
       "location": "Edmonton, Canada",
       "area": "Department of Computing Science",
       "studyType": "Visiting PhD Student at Prof. Fyshe's Lab",
-      "startDate": "2025-10",
+      "startDate": "2025-09",
+      "endDate": "2026-08",
       "score": "10",
       "courses": ["Vision-Language Models", "Compositionality", "Neural Encoding", "Knowledge Graph Representation Learning", "Functional MRI"]
     },
@@ -21,6 +45,7 @@
       "area": "Departments of Neurosciences and Computer Science",
       "studyType": "Interdisciplinary PhD Student & Fonds Wetenschappelijk Onderzoek (FWO) Fellow",
       "startDate": "2021-11",
+      "endDate": "2026-06",
       "score": "9",
       "courses": ["Natural Language Processing", "Neurolinguistics", "Neural Encoding", "Alzheimer's Disease", "Connected Speech", "Functional MRI"]
     },
@@ -29,7 +54,7 @@
       "location": "Sankt Augustin, Germany",
       "studyType": "Master of Science in Computer Science",
       "startDate": "2018-09",
-      "endDate": "2021-09",
+      "endDate": "2021-08",
       "courses": ["Natural Language Processing", "Bioinformatics", "Alzheimer's Disease", "Knowledge Graphs"]
     },
     {
@@ -44,22 +69,9 @@
       "institution": "Dalhousie University",
       "location": "Halifax, Canada",
       "studyType": "Visiting Undergraduate Student at Prof. Beiko's Lab",
-      "startDate": "2017-08",
+      "startDate": "2017-09",
       "endDate": "2017-12",
       "courses": ["Metagenomics", "Bioinformatics", "Machine Learning"]
-    }
-  ],
-  "research experience": [
-    {
-      "name": "Fraunhofer Institute for Algorithms and Scientific Computing (SCAI)",
-      "location": "Sankt Augustin, Germany",
-      "position": "Student Research Assistant",
-      "startDate": "2018-02",
-      "endDate": "2021-10",
-      "summary": "Bioinformatics Department",
-      "highlights": [
-        "Implemented natural language processing methods in biomedical contexts and developed machine learning approaches for Alzheimer's Disease diagnosis."
-      ]
     }
   ],
   "teaching experience": [
@@ -86,7 +98,7 @@
     {
       "category": "Reviewing Activities",
       "items": [
-        "Bioinformatics, Journal of Neurology, Bioinformatics Advances, Scientific Reports, BMC Medical Informatics & Decision Making, npj Dementia, International Journal of Language & Communication Disorders, European Conference on Artificial Intelligence (ECAI)"
+        "npj Digital Medicine, Alzheimer's Research & Therapy, Bioinformatics, Journal of Neurology, Bioinformatics Advances, Scientific Reports, BMC Medical Informatics & Decision Making, npj Dementia, International Journal of Language & Communication Disorders, European Conference on Artificial Intelligence (ECAI)"
       ]
     },
     {
@@ -98,6 +110,12 @@
     }
   ],
   "invited talks": [
+    {
+      "name": "CURE-ND Early Career Researcher Session, World Brain Health Forum",
+      "location": "Paris, France",
+      "position": "Language Models in Alzheimer's Disease",
+      "startDate": "2026-01"
+    },
     {
       "name": "University of Antwerp Computational Linguistics, Psycholinguistics and Sociolinguistics (CLiPS) Colloquium",
       "location": "Antwerp, Belgium",
@@ -145,8 +163,8 @@
   "publications": [
     {
       "name": "Compositional Complexity in Text and Images",
-      "publisher": "Neurobiology of Language (Stage 1 In-Principle Acceptance)",
-      "releaseDate": "2025-07",
+      "publisher": "Neurobiology of Language",
+      "releaseDate": "2026-06",
       "url": "https://doi.org/10.17605/OSF.IO/TA45D",
       "summary": "Helena Balabin, Antonietta Gabriella Liuzzi, Kevin Statz, Marie-Francine Moens, Patrick Dupont, Rik Vandenberghe"
     },

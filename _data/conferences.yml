@@ -1,5 +1,32 @@
 # List conferences in reverse chronological order by updating start_date fields.
 # Replace the sample entries with your own data and add images under assets/img/conferences/.
+- name: International Conference on Learning Representations (ICLR) 2026
+  location: Rio de Janeiro, Brazil
+  dates: April 2026
+  start_date: 2026-04-23
+  gallery:
+    - image: assets/img/conferences/IMG_2873.jpeg
+      caption: Presenting my poster on structural compositionality in text and vision transformers at the Re-Align workshop.
+    - image: assets/img/conferences/IMG_2802.jpeg
+      caption: Unreal views from the top of the Sugarloaf Mountain.
+- name: Canadian Institute for Advanced Research (CIFAR) Artificial Intelligence Infant Learning Workshop 2026
+  location: Banff, Canada
+  dates: March 2026
+  start_date: 2026-03-16
+  gallery:
+    - image: assets/img/conferences/IMG_1328.jpeg
+      caption: Snowy views from the conference room.
+    - image: assets/img/conferences/IMG_1356.jpeg
+      caption: Wildlife just across the street.
+- name: Catalysing a United Response in Europe to Neurodegenerative Diseases (CURE-ND) Early Career Researcher Session, World Brain Health Forum 2026
+  location: Paris, France
+  dates: January 2026
+  start_date: 2026-01-15
+  gallery:
+    - image: assets/img/conferences/IMG_0494.jpeg
+      caption: I felt very honored to be invited to present my work on language models for the detection of early Alzheimer's disease as a student representative at the World Brain Health Forum.
+    - image: assets/img/conferences/IMG_0475.jpeg
+      caption: A stunning view of the Eiffel Tower during my night run.
 - name: Cognitive Computational Neuroscience (CCN) 2025
   location: Amsterdam, The Netherlands
   dates: August 2025
